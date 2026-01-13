@@ -1,5 +1,7 @@
 # Backend Engineer CS 기본기
 
+> 📚 [면접 질문 목록 바로가기](./interview/interview.md)
+
 ## 목차
 
 ### [01. 인터넷과 웹 기초](./01-인터넷과-웹-기초)
