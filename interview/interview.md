@@ -230,11 +230,44 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
+### 8️⃣ 컨테이너 & 오케스트레이션
+
+#### Docker
+
+📄 [Docker 질문 보기](./docker/docker.md)
+
+- 컨테이너 vs VM, 이미지, 레이어
+- Dockerfile, 멀티스테이지 빌드, 최적화
+- Docker 네트워크 (bridge, host, overlay)
+- Docker 볼륨, 바인드 마운트
+- Docker Compose, 서비스 정의
+- Docker 보안, 루트리스, 시크릿
+- 리소스 관리, cgroups
+- 로깅, 모니터링, 트러블슈팅
+- CI/CD 연동
+
+#### Kubernetes
+
+📄 [Kubernetes 질문 보기](./kubernetes/kubernetes.md)
+
+- 아키텍처, Control Plane, Node 컴포넌트
+- Pod, Deployment, StatefulSet, DaemonSet
+- Service, Ingress, 네트워킹
+- PV, PVC, StorageClass, CSI
+- ConfigMap, Secret
+- 스케줄링, Taint/Toleration, Affinity
+- RBAC, NetworkPolicy, 보안
+- HPA, VPA, Cluster Autoscaler
+- Helm, Operator, CRD
+- 트러블슈팅, 서비스 메시
+
+---
+
 ## 📊 통계
 
--  총 카테고리: 18개
--  총 질문 파일: 18개
--  예상 총 질문 수: 약 1,025개 이상
+-  총 카테고리: 20개
+-  총 질문 파일: 20개
+-  예상 총 질문 수: 약 1,265개 이상
 
 ---
 
