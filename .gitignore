@@ -37,3 +37,6 @@ npm-debug.log*
 # Logs
 *.log
 logs/
+
+# IntelliJ IDEA
+*.iml
