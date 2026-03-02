@@ -1,4 +1,4 @@
-# 📚 CS 모의 면접 질문 목록
+# CS 모의 면접 질문 목록
 
 fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다.
 
@@ -8,13 +8,13 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-## 📂 카테고리별 질문 목록
+## 카테고리별 질문 목록
 
-### 1️⃣ Computer Science 기초
+### 1. Computer Science 기초
 
 #### 자료구조 (Data Structure)
 
-📄 [자료구조 질문 보기](./cs/ds.md)
+[자료구조 질문 보기](./cs/ds.md)
 
 - 스택, 큐, 해시, 트리, 힙, 그래프
 - 정렬 알고리즘
@@ -23,7 +23,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### 컴퓨터 구조 (Computer Architecture)
 
-📄 [컴퓨터 구조 질문 보기](./cs/architecture.md)
+[컴퓨터 구조 질문 보기](./cs/architecture.md)
 
 - CPU 구조, 파이프라이닝
 - 메모리 계층, 캐시 메모리
@@ -33,7 +33,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### 네트워크 (Network)
 
-📄 [네트워크 질문 보기](./cs/network.md)
+[네트워크 질문 보기](./cs/network.md)
 
 - HTTP/HTTPS, 쿠키/세션
 - TCP/UDP, OSI 7계층
@@ -43,7 +43,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### 데이터베이스 (Database)
 
-📄 [데이터베이스 질문 보기](./cs/db.md)
+[데이터베이스 질문 보기](./cs/db.md)
 
 - Key, RDB vs NoSQL
 - 트랜잭션, ACID, 격리 레벨
@@ -53,7 +53,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### 운영체제 (Operating System)
 
-📄 [운영체제 질문 보기](./cs/os.md)
+[운영체제 질문 보기](./cs/os.md)
 
 - 시스템 콜, 인터럽트
 - 프로세스, 스레드, PCB
@@ -64,7 +64,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### 개발 상식 및 기타
 
-📄 [개발 상식 및 기타 질문 보기](./cs/etc.md)
+[개발 상식 및 기타 질문 보기](./cs/etc.md)
 
 - 가상화, Docker, CI/CD
 - 객체지향, SOLID, 디자인 패턴
@@ -75,11 +75,13 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-### 2️⃣ 프로그래밍 언어
+### 2. 프로그래밍 언어
 
-📄 [프로그래밍 언어 질문 보기](./etc/pl.md)
+[공통 질문 보기](./etc/pl.md) - 타입 이론, 에러 처리, 다형성, 메타프로그래밍, 동시성 등
 
 #### Java
+
+[Java 질문 보기](./etc/java.md)
 
 - JVM, GC, 메모리 구조
 - Collection Framework
@@ -89,6 +91,8 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### JavaScript / TypeScript
 
+[JavaScript / TypeScript 질문 보기](./etc/javascript.md)
+
 - 실행 컨텍스트, 클로저, this
 - Promise, async/await, Event Loop
 - TypeScript 타입 시스템
@@ -96,11 +100,15 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### Python
 
+[Python 질문 보기](./etc/python.md)
+
 - GIL, 메모리 관리
 - 데코레이터, 제너레이터
 - 동시성 처리 (Threading, Multiprocessing, Asyncio)
 
 #### Go
+
+[Go 질문 보기](./etc/go.md)
 
 - 고루틴, 채널
 - 인터페이스, 슬라이스
@@ -108,11 +116,11 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-### 3️⃣ 프레임워크
+### 3. 프레임워크
 
 #### Spring / Spring Boot
 
-📄 [Spring 질문 보기](./framework/spring.md)
+[Spring 질문 보기](./framework/spring.md)
 
 - IoC, DI, Bean 생성 주기
 - AOP, Interceptor, Filter
@@ -122,7 +130,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### NestJS
 
-📄 [NestJS 질문 보기](./framework/nest.md)
+[NestJS 질문 보기](./framework/nest.md)
 
 - 모듈 시스템, Dependency Injection
 - Controller, Service, Provider
@@ -132,7 +140,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### Ktor
 
-📄 [Ktor 질문 보기](./framework/ktor.md)
+[Ktor 질문 보기](./framework/ktor.md)
 
 - 경량 비동기 웹 프레임워크
 - Kotlin Coroutine 기반
@@ -142,11 +150,11 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-### 4️⃣ 데이터베이스 & 캐시
+### 4. 데이터베이스 & 캐시
 
 #### Redis
 
-📄 [Redis 질문 보기](./database/redis.md)
+[Redis 질문 보기](./database/redis.md)
 
 - 데이터 타입, Persistence (RDB, AOF)
 - Pub/Sub, 트랜잭션
@@ -155,7 +163,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### Elasticsearch
 
-📄 [Elasticsearch 질문 보기](./database/elasticsearch.md)
+[Elasticsearch 질문 보기](./database/elasticsearch.md)
 
 - 아키텍처, Shard, Replica
 - Query DSL, Aggregation
@@ -165,7 +173,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### MongoDB
 
-📄 [MongoDB 질문 보기](./database/mongodb.md)
+[MongoDB 질문 보기](./database/mongodb.md)
 
 - NoSQL vs SQL, 문서 지향 데이터베이스
 - BSON, Collection, Document
@@ -178,11 +186,11 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-### 5️⃣ 메시징 & 이벤트 스트리밍
+### 5. 메시징 & 이벤트 스트리밍
 
 #### Kafka
 
-📄 [Kafka 질문 보기](./messaging/kafka.md)
+[Kafka 질문 보기](./messaging/kafka.md)
 
 - 아키텍처, Producer, Consumer, Broker
 - Partition, Offset, Consumer Group
@@ -193,7 +201,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### CDC (Debezium)
 
-📄 [CDC/Debezium 질문 보기](./messaging/debezium.md)
+[CDC/Debezium 질문 보기](./messaging/debezium.md)
 
 - CDC 개념, Debezium 작동 원리
 - MySQL binlog, 스키마 변경
@@ -202,11 +210,11 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-### 6️⃣ 인프라
+### 6. 인프라
 
 #### Docker
 
-📄 [Docker 질문 보기](./infrastructure/docker.md)
+[Docker 질문 보기](./infrastructure/docker.md)
 
 - 컨테이너 vs VM, 이미지, 레이어
 - Dockerfile, 멀티스테이지 빌드, 최적화
@@ -220,7 +228,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### Kubernetes
 
-📄 [Kubernetes 질문 보기](./infrastructure/kubernetes.md)
+[Kubernetes 질문 보기](./infrastructure/kubernetes.md)
 
 - 아키텍처, Control Plane, Node 컴포넌트
 - Pod, Deployment, StatefulSet, DaemonSet
@@ -235,11 +243,11 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-### 7️⃣ 기타
+### 7. 기타
 
 #### 시스템 설계 (System Design)
 
-📄 [시스템 설계 질문 보기](./etc/system_design.md)
+[시스템 설계 질문 보기](./etc/system_design.md)
 
 - 이벤트, 메시지, EDA
 - 분산 트랜잭션, SAGA, 이벤트 소싱
@@ -251,7 +259,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### WebSocket
 
-📄 [WebSocket 질문 보기](./etc/websocket.md)
+[WebSocket 질문 보기](./etc/websocket.md)
 
 - WebSocket vs HTTP
 - Handshake, 메시지 프레이밍
@@ -260,7 +268,7 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 #### CRDT (Yjs)
 
-📄 [CRDT 질문 보기](./etc/crdt.md)
+[CRDT 질문 보기](./etc/crdt.md)
 
 - CRDT 개념, Yjs
 - 분산 환경 동기화
@@ -269,14 +277,14 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-## 📊 통계
+## 통계
 
 -  총 카테고리: 7개
 -  총 질문 파일: 17개
 
 ---
 
-## 💡 활용 방법
+## 활용 방법
 
 1. 관심있는 카테고리의 질문 파일을 클릭합니다
 2. 각 질문에 대해 스스로 답변을 작성해봅니다
@@ -285,4 +293,4 @@ fru1tworld의 CS 학습 정리를 위한 모의 면접 질문 리스트입니다
 
 ---
 
-⬅️ [README로 돌아가기](../readme.md)
+[README로 돌아가기](../readme.md)
