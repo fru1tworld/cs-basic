@@ -73,7 +73,7 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 
 ### 2. 프로그래밍 언어
 
-[공통 질문 보기](./etc/pl.md) - 타입 이론, 에러 처리, 다형성, 메타프로그래밍, 동시성 등
+[프로그래밍 언어 이론(PLT) 질문 보기](./etc/plt.md) - 의미론, 바인딩, 평가 전략, 타입 시스템, 효과, 프로그램 검증
 
 #### Java
 
@@ -112,41 +112,7 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 
 ---
 
-### 3. 프레임워크
-
-#### Spring / Spring Boot
-
-[Spring 질문 보기](./framework/spring.md)
-
-- IoC, DI, Bean 생성 주기
-- AOP, Interceptor, Filter
-- DispatcherServlet, @Transactional
-- JPA, N+1 문제
-- Spring Security, Spring Cloud
-
-#### NestJS
-
-[NestJS 질문 보기](./framework/nest.md)
-
-- 모듈 시스템, Dependency Injection
-- Controller, Service, Provider
-- Middleware, Interceptor, Guard, Pipe
-- Exception Filter
-- WebSocket, GraphQL, Microservices
-
-#### Ktor
-
-[Ktor 질문 보기](./framework/ktor.md)
-
-- 경량 비동기 웹 프레임워크
-- Kotlin Coroutine 기반
-- 플러그인 시스템
-- 라우팅, 인증, 직렬화
-- Ktor Client
-
----
-
-### 4. 데이터베이스 & 캐시
+### 3. 데이터베이스 & 캐시
 
 #### Redis
 
@@ -156,6 +122,8 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 - Pub/Sub, 트랜잭션
 - Redis Cluster, Sentinel
 - 캐시 전략, Eviction 정책
+- 지연, 캐시 적중률, 메모리 사용량으로 장애 진단
+- ACL과 접근 제어
 
 #### Elasticsearch
 
@@ -166,23 +134,12 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 - Mapping, Analyzer
 - 인덱스 관리, ILM
 - 성능 튜닝
-
-#### MongoDB
-
-[MongoDB 질문 보기](./database/mongodb.md)
-
-- NoSQL vs SQL, 문서 지향 데이터베이스
-- BSON, Collection, Document
-- 인덱싱, Compound Index
-- Aggregation Pipeline
-- Replication, Replica Set
-- Sharding, 분산 처리
-- Transaction, ACID
-- 성능 최적화, Schema Design
+- 검색 지연, 색인 요청 거절, 디스크 경보
+- 인덱스 접근 권한
 
 ---
 
-### 5. 메시징 & 이벤트 스트리밍
+### 4. 메시징 & 이벤트 스트리밍
 
 #### Kafka
 
@@ -194,19 +151,12 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 - Exactly-Once Semantics
 - Kafka Streams, Kafka Connect
 - 성능 튜닝, 모니터링
-
-#### CDC (Debezium)
-
-[CDC/Debezium 질문 보기](./messaging/debezium.md)
-
-- CDC 개념, Debezium 작동 원리
-- MySQL binlog, 스키마 변경
-- Kafka Connect 연동
-- 데이터 일관성, 장애 복구
+- Producer, Broker, Consumer의 병목 구분
+- Lag와 처리 완료, 복제 지연과 장애 진단
 
 ---
 
-### 6. 인프라
+### 5. 인프라
 
 #### Docker
 
@@ -221,6 +171,7 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 - 리소스 관리, cgroups
 - 로깅, 모니터링, 트러블슈팅
 - CI/CD 연동
+- CPU throttling, 종료 원인, 로그 관리, Docker 소켓 보안
 
 #### Kubernetes
 
@@ -236,10 +187,12 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 - HPA, VPA, Cluster Autoscaler
 - Helm, Operator, CRD
 - 트러블슈팅, 서비스 메시
+- 지연과 재시작 원인 진단, 메트릭 수집 범위
+- RBAC와 NetworkPolicy
 
 ---
 
-### 7. 기타
+### 6. 기타
 
 #### 시스템 설계 (System Design)
 
@@ -262,21 +215,12 @@ CS 개념과 기술 스택을 공부하며 정리한 모의 면접 질문 목록
 - Ping/Pong, 재연결
 - 보안, 부하 분산
 
-#### CRDT (Yjs)
-
-[CRDT 질문 보기](./etc/crdt.md)
-
-- CRDT 개념, Yjs
-- 분산 환경 동기화
-- CRDT vs OT
-- Awareness, Delta 업데이트
-
 ---
 
 ## 통계
 
--  총 카테고리: 7개
--  총 질문 파일: 17개
+-  총 카테고리: 6개
+-  총 질문 파일: 19개
 
 ---
 

@@ -271,3 +271,19 @@ Kafka 커넥터(Connector) 개발 및 커스터마이징 방법에 대해 설명
 
 ### KAFKA-050
 Kafka 운영 시 모니터링과 경보 시스템 설정 시 중요한 핵심 지표는 무엇인가요?
+
+---
+
+## Kafka 운영 및 장애 진단
+
+### KAFKA-051
+Producer의 전송이 느릴 때 Producer와 Broker의 병목을 어떤 지표로 구분하나요?
+
+### KAFKA-052
+Consumer Lag가 증가하는 원인은 무엇이며, Consumer 수를 늘려도 해결되지 않는 경우는 언제인가요?
+
+### KAFKA-053
+Consumer Lag가 0이면 메시지 처리가 모두 끝난 것인가요? 오프셋 커밋과 실제 처리 완료의 차이를 설명해 주세요.
+
+### KAFKA-054
+Broker 장애 시 ISR과 파티션 상태를 어떻게 확인하나요? `acks`와 `min.insync.replicas`가 쓰기 성공 여부에 미치는 영향도 설명해 주세요.
